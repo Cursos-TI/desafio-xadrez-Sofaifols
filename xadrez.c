@@ -29,6 +29,7 @@ int main() {
     
     // rainha com do while
     printf("MOVIMENTO RAINHA:\n");
+    
     int r = 0;
      do {
         printf("-> Esquerda"); //direção da rainha
