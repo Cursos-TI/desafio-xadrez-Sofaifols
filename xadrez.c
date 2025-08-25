@@ -3,7 +3,7 @@
 
 
 int main() {
-    int movtorre = 5;, movbispo = 5, movrainha = 8;
+    int movtorre = 5, movbispo = 5, movrainha = 8;
 
     //bispo, para cima e direita *diagonal*
     //torre para cima ou baixo *reta*
@@ -26,8 +26,15 @@ int main() {
         printf("-> Cima, direita\n"); //direção do bispo
         b++;
     }
-
     
+    // rainha com do while
+    printf("MOVIMENTO RAINHA:\n");
+    int r = 0;
+     do {
+        printf("-> Esquerda"); //direção da rainha
+        r++;
+     } while ( r <movrainha); //começa em 0 e vai até 5
+
 
 
         
