@@ -14,10 +14,11 @@ int main() {
     //torre com FOR
     printf("MOVIMENTO TORRE:\n");
     
-    for (int t= 0; t <movtorre; t++); //começa em 0 e vai até 5
+    for (int t= 0; t < movtorre; t++){
+        //começa em 0 e vai até 5, com incremento
         printf(" -> Direita\n"); //direção torre
         
-
+    }
 
     // bispo com while
     printf("MOVIMENTO BISPO:\n");
@@ -28,19 +29,12 @@ int main() {
     }
     
     // rainha com do while
-    printf("MOVIMENTO RAINHA:\n");
-    
     int r = 0;
+    printf("MOVIMENTO RAINHA:\n");
      do {
-        printf("-> Esquerda"); //direção da rainha
+        printf("-> Esquerda\n "); //direção da rainha
         r++;
-     } while ( r <movrainha); //começa em 0 e vai até 5
-
-
-
-        
-
-
+     } while ( r < movrainha); //começa em 0 e vai até 5
 
     return 0;
 }
