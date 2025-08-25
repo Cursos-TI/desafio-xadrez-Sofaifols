@@ -15,11 +15,19 @@ int main() {
     printf("MOVIMENTO TORRE:\n");
     
     for (int t= 0; t <movtorre; t++); //começa em 0 e vai até 5
-        printf(" -> Direita\n");
+        printf(" -> Direita\n"); //direção torre
         
 
 
     // bispo com while
+    printf("MOVIMENTO BISPO:\n");
+    int b = 0;
+    while (b <movbispo) { //começa em 0 e vai até 5
+        printf("-> Cima, direita\n"); //direção do bispo
+        b++;
+    }
+
+    
 
 
         
