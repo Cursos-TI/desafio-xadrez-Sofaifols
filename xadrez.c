@@ -80,9 +80,21 @@ int main() {
             printf("\n");
         }
             */
-    // cavalo com break e aninhado?
-    for (int c = 0; c<3; c++){ //2 movimentos cima
-        if()
+           //nã consegui usar  break :<
+    // cavalo com  aninhado
+    printf("MOVIMENTO CAVALO: \n");
+    for (int i = 0; i<movcavalo; i++){ 
+        //2 movimentos cima
+        for(int j = 0; j<2; j++){
+            
+         printf("-> Cima\n");
+        }
+       
+    for (int k=0; k <1; k++){
+       
+        printf("->Direita\n");
+    }
+    printf("\n");
     }
 
 /*
@@ -104,7 +116,8 @@ int main() {
 
 
 
-
+return 0;
+}
 
 
 
