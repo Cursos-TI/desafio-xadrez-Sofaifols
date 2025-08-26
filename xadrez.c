@@ -39,21 +39,22 @@ int main() {
 
 
 
-     /*//cavaloO com for e for
+     //cavaloO com for e for
      printf("MOVIMENTO CAVALO:\n");
         for(int c= 0; c < movcavalo; c++){
             // baixo, 2x
             for (int i = 0; i<2; i++){
                     printf("->Baixo\n");
 
-            } 
+            } //e uma vez para esquerda
+
             for (int j= 0; j<1; j++){
                     printf("-> Esquerda");
             }
             printf("\n");
         }
-*/
 
+/*
         // cCAvalo com while e for
         printf("MOVIMENTO CAVALO:\n");
 
@@ -68,7 +69,7 @@ int main() {
         }
         printf("\n");
         
-
+*/
 
 
 
