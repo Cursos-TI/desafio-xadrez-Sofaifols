@@ -2,19 +2,19 @@
 
 void mover_torre(int casas) {
     if (casas > 0) {
-        printf("->Direita\n");
+        printf(" -> Direita\n");
         mover_torre(casas - 1);
     }
 }
 void mover_bispo(int casas){
     if (casas > 0) {
-        printf("-> Cima, direita\n");
+        printf(" -> Cima, direita\n");
         mover_bispo(casas -1);
     }
 }
 void mover_rainha (int casas){
     if (casas > 0){
-        printf("-> Esquerda\n");
+        printf(" -> Esquerda\n");
         mover_rainha(casas -1);
     }
 }
@@ -24,7 +24,9 @@ int main() {
     //bispo, para cima e direita *diagonal*
     //torre para cima ou baixo *reta*
     //rainha para cima, baixo ou diagonal *reta e diagonal*
-
+printf("\n----Bem vindo ao jogo de xadrez!!----\n");
+printf  ("\n");
+printf("\n==========================================\n");
 
 
     //com recursivo, torre
@@ -86,13 +88,13 @@ int main() {
     for (int i = 0; i<movcavalo; i++){ 
         //2 movimentos cima
         for(int j = 0; j<2; j++){
-            
-         printf("-> Cima\n");
+
+         printf(" -> Cima\n");
         }
        
     for (int k=0; k <1; k++){
        
-        printf("->Direita\n");
+        printf(" -> Direita\n");
     }
     printf("\n");
     }
@@ -113,7 +115,14 @@ int main() {
         printf("\n");
         
 */
+    //bispo2 aninhado
+    printf("MOVIMENTO BISPO 2:\n");
+        for (int i= 0; i <5; i++){
+            for (int j=0; j<1; j++){
+                printf(" -> Cima, direita\n");
 
+            }
+        }
 
 
 return 0;
