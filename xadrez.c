@@ -30,6 +30,7 @@ printf("\n==========================================\n");
 
 
     //com recursivo, torre
+    //
     int casatorre = 5;
     printf("MOVIMENTO TORRE:\n");
     mover_torre(casatorre);
