@@ -3,7 +3,7 @@
 
 
 int main() {
-    int movtorre = 5, movbispo = 5, movrainha = 8;
+    int movtorre = 5, movbispo = 5, movrainha = 8, movcavalo = 3;
 
     //bispo, para cima e direita *diagonal*
     //torre para cima ou baixo *reta*
@@ -36,5 +36,25 @@ int main() {
         r++;
      } while ( r < movrainha); //começa em 0 e vai até 5
 
-    return 0;
-}
+
+
+
+     //cavaloO com for e for
+     printf("MOVIMENTO CAVALO:\n");
+        for(int c= 0; c < movcavalo; c++){
+            // baixo, 2x
+            for (int i = 0; i<2; i++){
+                    printf("->Baixo\n");
+
+
+            } 
+            for (int j= 0; j<1; j++){
+                    printf("-> Esquerda");
+            }
+            printf("\n");
+        }
+ return 0;
+     }
+     
+   
+
